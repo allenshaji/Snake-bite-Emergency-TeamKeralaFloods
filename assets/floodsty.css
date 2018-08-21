@@ -1,0 +1,74 @@
+	body{
+		overflow-x: hidden;
+	}
+	@media screen and (max-width: 1500px) and (min-width: 1234px){
+		.row{
+			margin-left:-80px;
+			margin-right:-80px;
+		}
+		.map{
+			width:100%;
+			height:100%;
+		}
+	}
+	@media screen and (min-width: 1501px){
+		.row{
+			margin-left:-120px;
+			margin-right:-120px;
+		}
+		.map{
+			width:100%;
+			height:100%;
+		}
+	}
+	.btn{
+		margin-top:30px;
+	}
+	@media screen and (max-width: 479px) {
+		.map{
+			height: 500px;
+			width: 100%;
+		}
+		
+	}
+	@media screen and (max-width: 767px) and (min-width: 480px){
+		.map{
+			height: 500px;
+			width: 100%;
+		}
+		
+	}
+	@media screen and (max-width: 1233px) and (min-width: 768px){
+		.map{
+			height: 650px;
+			width: 100%;
+		}
+		
+	}
+	h3 {
+		position: relative;
+		border-bottom: 2px solid green;
+	}
+	footer {
+		text-align: center;
+		background: #f4f4f4;
+		padding: 10px 0px;
+	}
+	.fld{
+		padding-top:10px;
+		padding-bottom:50px;
+	}
+	.allen:hover {
+		color: #ffffff;
+		text-decoration: none;
+	}
+
+	.allen {
+		color: #ffffff;
+		text-decoration: none;
+	}
+	.btn {
+		margin-top: 50px;
+		margin-right: 10px;
+		margin-left:10px;
+	}
